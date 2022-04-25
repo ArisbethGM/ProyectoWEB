@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagenes" href="../imagen/logo.jpeg">
+    <link rel="stylesheet" href="../css/styleInicio.css">
+    <title>Iniciar sesión</title>
+</head>
+<body>
+    <div class="cuerpo" >   
+        <div class="fomulariocontactoL"> 
+            <h2>Iniciar sesión</h2>
+            <form  method="POST" id="inicio" name="inicio">
+                <div class="imgcontainer">
+                    <img src="../imagen/logo.jpeg" alt="Logo de la UV" class="avatar">
+                </div>
+                <div class="containerlogin">
+                    <form>
+                        <label for="matricula_Inc"><b>Matrícula</b></label>
+                        <input type="text"  placeholder="Matrícula"  id="matricula" name="matricula" required>
+
+                        <label for="psw"><b>Contraseña</b></label>
+                        <input type="password" placeholder="Contraseña" id="psw" name="psw" required>
+
+                        <input type="submit" value="Aceptar" class="aceptar">
+                    </form>  
+                </div>
+               <!--
+                 <div class="containerlogin-b">
+                    <a href="../html/form.html">
+                        <input type="submit" value="Registrarme" class="registrarme" > 
+                    </a> 
+                </div> --> 
+            </form>
+        </div>
+    </div>
+    <script src="../js/appInicio.js"></script>
+</body>
+</html>

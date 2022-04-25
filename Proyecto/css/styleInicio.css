@@ -1,0 +1,119 @@
+  
+ /* ESTILOS DEL INICO DE SESION */ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    background-image: url('../imagen/fondouno.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: block;
+    left: 0;
+    height: 100vh;
+    
+    right: 0;
+    z-index: 1;
+    margin: 0px;
+}
+
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+ /* 
+  input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    
+  }*/
+  
+  
+  .aceptar{
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+ 
+  
+  }
+  .registrarme{
+    background-color: rgb(0, 77, 128);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    
+    
+  }
+
+ .aceptar:hover {
+    background-color: #45a049;
+  }
+
+  .registrarme:hover {
+    background-color:  rgb(39, 92, 126);
+  }
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  .containerlogin {
+    padding: 40px;
+
+  }
+
+  img.avatar {
+    width: 36%;
+    border-radius: 7%;
+   
+  }
+  .fomulariocontactoL h2{
+      text-align: center;
+      
+  }
+
+  .fomulariocontactoL {
+    border-radius: 30px;
+    background-color: #ffffffb3;
+    padding: 20px;
+    width: 400px; 
+    box-shadow: 2px 5px 37px #000000;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+   
+  }
+
+
+  
+  
+  
+  
+  
+  

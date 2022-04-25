@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagenes" href="../imagen/logo.jpeg">
+    <link rel="stylesheet" href="../css/styleForm.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <div class="imgcontainer">
+                <img src="../imagen/lic.JPG" alt="Logo de la UV" class="avatar">
+             </div>
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>UNIVERSIDAD<br>VERACRUZANA</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="dato"></span>Lic. Tecnologías Computacionales</p>
+                <p><span class="dato"></span>Tecnologías Web</p>
+            </section>
+        </section>
+
+        <div class="form">
+         
+        <form  method="POST" id="formulario" name="formulario" target="_blank" class="form_contact" >
+            <h3>Formulario</h3>
+            <p id="formulario__matricula" >
+                <label for="matricula">Matricula *</label>
+                <input class="formulario__input" type="text" id="matricula" placeholder="Ejem: zS1801232" name="matricula" required>
+            </p>
+             <p id="formulario__nombre" >
+                <label for="nombre">Nombres *</label>
+                <input class="formulario__input" type="text" id="nombre" name="nombre" required>
+            </p>
+            <p id="formulario__apaterno" >
+                <label for="apaterno">Apellido Paterno *</label>
+                <input class="formulario__input" type="text" id="apaterno" name="apaterno" required>
+            </p>
+            <p id="formulario__amaterno" >
+                <label for="amaterno">Apellido Materno </label>
+                <input class="formulario__input" type="text" id="amaterno" name="amaterno">
+            </p>
+             <p id="formulario__correo" >
+                <label for="correo">Correo electronico *</label>
+                <input class="formulario__input" type="email" id="correo" placeholder="Ejem: usuario@hotmail.com" name="correo" required>
+            </p>
+            <p id="formulario__colonia" >
+                <label for="colonia">Colonia</label>
+                <input class="formulario__input" type="text" id="colonia" name="colonia">
+            </p>
+             <p id="formulario__codigo" >
+                <label for="codigo">Código Postal</label>
+                <input class="formulario__input" type="text" id="codigo" placeholder="Ejem: 12345" name="codigo">
+            </p>
+            <p id="formulario__ciudad" >
+                <label for="ciudad">Ciudad</label>
+                <input class="formulario__input" type="text" id="ciudad" name="ciudad">
+            </p>
+            <p id="formulario__psw" >
+                <label for="psw">Contraseña</label>
+                <input class="formulario__input" type="password" id="psw" name="psw" required>
+            </p>
+             <p>
+                <input type="submit" value="Enviar" id="btnSend">
+            </p> 
+            <br>
+                
+        </form>
+    </div>
+    </section>
+    <script src="../js/appForm.js"></script> 
+</body>
+</html>
